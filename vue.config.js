@@ -11,6 +11,10 @@ module.exports = {
       extensions: ['.js', '.vue', '.json'],
       alias: {
         '@': resolve('src'),
+        // 配置别名，可根据需要进行设置
+        // assets: resolve('src/assets'),
+        // components: resolve('src/components'),
+        // views: resolve('src/views'),
       },
     },
   },
