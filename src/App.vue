@@ -5,6 +5,6 @@
 </template>
 
 <style lang="less">
-@import './assets/css/base.css';
+@import './styles/base.css';
 </style>
 
