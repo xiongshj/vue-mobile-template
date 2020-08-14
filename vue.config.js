@@ -6,6 +6,14 @@ function resolve(dir) {
 }
 
 module.exports = {
+  lintOnSave: process.env.NODE_ENV === 'development',
+  devServer: {
+    overlay: {
+      warnings: false,
+      errors: true,
+    },
+  },
+
   configureWebpack: {
     resolve: {
       extensions: ['.js', '.vue', '.json'],
